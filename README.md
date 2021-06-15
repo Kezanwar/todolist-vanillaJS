@@ -1,2 +1,9 @@
 # todolist-vanillaJS
-Simple to do list using Vanilla JS 
+
+
+A Simple to do list using;
+
+Vanilla JS, localStorage, CSS Variables, Font Awesome, Flexbox & more :D
+
+
+
