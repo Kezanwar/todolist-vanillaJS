@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Open Graph Meta Properties -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://to-do-list-kez-anwar.web.app/" />
+    <meta property="og:title" content="To Do List - Developed by Kez Anwar" />
+    <meta property="og:description" content="A simple organisation tool." />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <h1>To Do List</h1>
+      <p>
+        Developed by
+
+        <a href="https://github.com/Kezanwar"
+          >Kez Anwar<i class="fas fa-laugh-beam"></i
+        ></a>
+      </p>
+    </header>
+    <!-- to do input -->
+
+    <form>
+      <div class="input-container">
+        <input type="text" class="todo-input" placeholder="New To Do..." />
+        <button class="todo-button" type="submit">
+          <i class="fas fa-pencil-alt"></i>
+        </button>
+      </div>
+    </form>
+
+    <!-- to do container  -->
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+    <!-- Script -->
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
